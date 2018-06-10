@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"scr",
+				"scrape_url"
+			],
+			[
+				"seconds",
+				"seconds_to_sleep"
+			],
+			[
 				"setStockL",
 				"setStockListGlobally"
 			],
@@ -75,7 +83,8 @@
 			"file": "scrape_ufc_piratebay.py",
 			"settings":
 			{
-				"buffer_size": 3001,
+				"buffer_size": 5379,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -136,6 +145,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"titles_to_match_list",
+			"titles_to_match_str",
+			"need_title_input",
+			"list_of_"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -162,15 +175,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3001,
+						"buffer_size": 5379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								168,
+								168
 							]
 						],
 						"settings":
